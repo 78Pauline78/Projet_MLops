@@ -1,3 +1,22 @@
-# fichier output
-output/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
 
+# Variables d'environnement (Clés API)
+.env
+
+# Fichiers de données et sorties
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.json
+output/
+old/
+
+# IDE
+.vscode/
+.idea/
