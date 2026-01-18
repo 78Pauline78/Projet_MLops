@@ -12,33 +12,32 @@ def generate_recipe(ingredients):
         "Authorization": f"Bearer {HF_TOKEN}",
         "Content-Type": "application/json"
     }
-    
+
     payload = {
         "model": "meta-llama/Llama-3.1-8B-Instruct",
         "messages": [
             {
                 "role": "system", 
-                "content": "Tu es une grand-mère française. Réponds UNIQUEMENT en JSON. Ton 'astuce' doit faire maximum 150 caractères. Structure: {'titre': '', 'ingredients': [], 'etapes': [], 'astuce': ''}"
+                "content": "Tu es une grand-mère française. Tu réponds uniquement en JSON valide. "
+                           "N'utilise jamais de guillemets doubles (\") à l'intérieur de tes phrases, utilise des apostrophes simples ('). "
+                           "L'astuce doit faire moins de 150 caractères."
             },
             {
                 "role": "user", 
-                "content": f"Fais une recette avec : {ingredients}"
+                "content": f"Crée une recette en JSON avec : {ingredients}. "
+                           f"Structure : {{\"titre\": \"\", \"ingredients\": [], \"etapes\": [], \"astuce\": \"\"}}"
             }
         ],
-        "max_tokens": 1000, # On augmente la limite
-        "temperature": 0.7 # Un peu de créativité pour le style 'grand-mère'
+        "response_format": { "type": "json_object" }, # Force le format JSON
+        "max_tokens": 1000,
+        "temperature": 0.1
     }
 
-
     response = requests.post(API_URL, headers=headers, json=payload)
-    
+
     if response.status_code == 200:
         result = response.json()
-        contenu = result['choices'][0]['message']['content']
-        
-        # NETTOYAGE : remplace les guillemets simples par des doubles
-        contenu = contenu.replace("'", '"')
-        return contenu
+        return result['choices'][0]['message']['content']
     return None
 
 # print(generate_recipe("oeufs, farine, lait"))

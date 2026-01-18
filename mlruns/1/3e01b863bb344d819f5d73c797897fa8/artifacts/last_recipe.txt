@@ -1,0 +1,38 @@
+{
+  "titre": "Poulet r\u00f4ti aux carottes",
+  "ingredients": [
+    {
+      "nom": "carottes",
+      "quantite": 3
+    },
+    {
+      "nom": "oignon",
+      "quantite": 1
+    },
+    {
+      "nom": "poulet",
+      "quantite": "1 poulet entier"
+    }
+  ],
+  "etapes": [
+    {
+      "etape": "Pr\u00e9chauffez le four \u00e0 200\u00b0C."
+    },
+    {
+      "etape": "Lavez et coupez les carottes en rondelles."
+    },
+    {
+      "etape": "Faites cuire l'oignon \u00e9minc\u00e9 dans un peu d'huile d'olive."
+    },
+    {
+      "etape": "Ajoutez les carottes et faites cuire pendant 20 minutes."
+    },
+    {
+      "etape": "Mettez le poulet dans un plat et faites-le r\u00f4tir pendant 45 minutes."
+    },
+    {
+      "etape": "Servez le poulet avec les carottes et l'oignon cuit."
+    }
+  ],
+  "astuce": "N'oubliez pas de badigeonner le poulet de beurre avant de le faire r\u00f4tir."
+}

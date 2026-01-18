@@ -1,0 +1,24 @@
+{
+  "titre": "Poulet r\u00f4ti aux carottes",
+  "ingredients": [
+    {
+      "nom": "carottes",
+      "quantite": 3
+    },
+    {
+      "nom": "oignon",
+      "quantite": 1
+    },
+    {
+      "nom": "poulet",
+      "quantite": "1 poulet entier"
+    }
+  ],
+  "etapes": [
+    "Pr\u00e9chauffez le four \u00e0 200\u00b0C.",
+    "Coupez les carottes en rondelles et l'oignon en lamelles.",
+    "Mettez le poulet dans un plat allant au four et ajoutez les carottes et l'oignon.",
+    "Arrosez de sauce et enfournez pendant 45 minutes."
+  ],
+  "astuce": "Servez chaud avec de la pur\u00e9e de pommes de terre."
+}
