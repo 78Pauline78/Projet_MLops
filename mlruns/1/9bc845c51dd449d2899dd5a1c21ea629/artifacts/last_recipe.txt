@@ -1,0 +1,17 @@
+{
+  "titre": "Galette Fajitas au Gruy\u00e8re",
+  "ingredients": [
+    "galette fajitas",
+    "guacamole",
+    "2 tomates",
+    "gruy\u00e8re",
+    "cr\u00e8me"
+  ],
+  "etapes": [
+    "Faites chauffer la galette fajitas dans une po\u00eale.",
+    "Ajoutez les tomates coup\u00e9es en petits morceaux et faites-les cuire pendant 2-3 minutes.",
+    "Ajoutez le gruy\u00e8re r\u00e2p\u00e9 et la cr\u00e8me, m\u00e9langez bien.",
+    "Servez chaud avec du guacamole"
+  ],
+  "astuce": "Servez avec des tortillas pour un repas complet"
+}

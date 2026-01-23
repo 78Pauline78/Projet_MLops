@@ -1,0 +1,35 @@
+{
+  "titre": "Poireaux au Ch\u00e8vre et Cr\u00e8me",
+  "ingredients": [
+    {
+      "nom": "poireaux",
+      "quantite": 4
+    },
+    {
+      "nom": "cr\u00e8me",
+      "quantite": "20cl"
+    },
+    {
+      "nom": "buche de ch\u00e8vre",
+      "quantite": 1
+    },
+    {
+      "nom": "miel",
+      "quantite": ""
+    },
+    {
+      "nom": "oeufs",
+      "quantite": 2
+    }
+  ],
+  "etapes": [
+    "\u00c9pluchez les poireaux et coupez-les en tron\u00e7ons.",
+    "Faites-les cuire \u00e0 la vapeur pendant 10 minutes.",
+    "Dans une po\u00eale, faites fondre la cr\u00e8me avec un peu de miel.",
+    "Ajoutez le ch\u00e8vre \u00e9miett\u00e9 et m\u00e9langez.",
+    "Battez les oeufs et ajoutez-les \u00e0 la cr\u00e8me.",
+    "M\u00e9langez bien et versez la sauce sur les poireaux.",
+    "Servez chaud."
+  ],
+  "astuce": "N'oubliez pas de servir chaud pour que la sauce soit bien chaude et cr\u00e9meuse."
+}

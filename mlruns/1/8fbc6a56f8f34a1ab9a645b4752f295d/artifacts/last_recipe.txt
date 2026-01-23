@@ -1,0 +1,29 @@
+{
+  "titre": "Spaghetti au gorgonzola et poire",
+  "ingredients": [
+    {
+      "nom": "spaghetti",
+      "quantite": "100g"
+    },
+    {
+      "nom": "gorgonzola",
+      "quantite": ""
+    },
+    {
+      "nom": "poire",
+      "quantite": ""
+    },
+    {
+      "nom": "noix",
+      "quantite": "10"
+    }
+  ],
+  "etapes": [
+    "Cuire les spaghetti selon les instructions du paquet.",
+    "M\u00e9langer le gorgonzola avec un peu de cr\u00e8me fra\u00eeche.",
+    "Couper la poire en d\u00e9s.",
+    "M\u00e9langer les spaghetti avec le gorgonzola et les d\u00e9s de poire.",
+    "Saupoudrer de noix."
+  ],
+  "astuce": "Servir chaud et d\u00e9guster imm\u00e9diatement."
+}

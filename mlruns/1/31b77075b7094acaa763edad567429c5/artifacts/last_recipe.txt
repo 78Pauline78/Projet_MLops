@@ -1,0 +1,20 @@
+{
+  "titre": "Galette de bl\u00e9 avec guacamole et gruy\u00e8re",
+  "ingredients": [
+    "bl\u00e9",
+    "guacamole",
+    "tomates",
+    "gruy\u00e8re",
+    "cr\u00e8me"
+  ],
+  "etapes": [
+    "Pr\u00e9chauffez le four \u00e0 180\u00b0C.",
+    "\u00c9talez la p\u00e2te de bl\u00e9 sur une plaque de cuisson.",
+    "\u00c9talez une couche de guacamole sur la p\u00e2te de bl\u00e9.",
+    "Coupez les tomates en d\u00e9s et r\u00e9partissez-les sur le guacamole.",
+    "R\u00e2pez le gruy\u00e8re et r\u00e9partissez-le sur les tomates.",
+    "Ajoutez une couche de cr\u00e8me sur le fromage.",
+    "Enfournez pendant 20-25 minutes."
+  ],
+  "astuce": "Servez chaud et d\u00e9gustez avec un saladier de salade verte."
+}
