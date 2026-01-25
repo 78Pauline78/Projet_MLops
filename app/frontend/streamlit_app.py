@@ -5,7 +5,7 @@ import re
 from app.llm.recette_gen import generate_recipe 
 from app.image.image_gen import generate_recipe_image
 from app.pdf.pdf_builder import generer_pdf_recette
-from app.tracking.mlflow_logger import log_recipe_event  # <-- Import du tracking
+from app.tracking.mlflow_logger import log_recipe_details  # <-- Import du tracking
 
 st.set_page_config(page_title="Le Grimoire de Grand-Mère", page_icon="🍲")
 
@@ -34,7 +34,7 @@ if st.button("Générer ma recette magique ✨"):
 
                 # --- TRACKING MLFLOW ---
                 # On enregistre les ingrédients et le résultat JSON transformé en texte
-                log_recipe_event(ingredients_input, json.dumps(recipe_data, indent=2))
+                log_recipe_details(ingredients_input, recipe_data)
 
                 # 2. Génération de l'image
                 st.info("Grand-mère prépare les fourneaux...")

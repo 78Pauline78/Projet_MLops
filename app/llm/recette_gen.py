@@ -39,5 +39,3 @@ def generate_recipe(ingredients):
         result = response.json()
         return result['choices'][0]['message']['content']
     return None
-
-# print(generate_recipe("oeufs, farine, lait"))
