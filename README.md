@@ -22,7 +22,7 @@ Cette application transforme une simple liste d'ingrédients en une **fiche rece
 
 ### Prérequis
 - Un compte Hugging Face avec un **Token d'accès** (pour utiliser les modèles).
-- Saisir le token dans .env (HF_TOKEN=****)
+- Saisir le token dans un fichier .env en racine du projet (HF_TOKEN=****)
 
 ### 1. Cloner le projet
 ```bash
@@ -48,7 +48,7 @@ docker exec -it projet_mlops-app-1 bash
 ```
 une fois dans le docker saisir:
 ```bash
-mlflow ui
+mlflow ui --host 0.0.0.0 --port 5000
 ```
 Interface mlflow : http://localhost:5000
 
