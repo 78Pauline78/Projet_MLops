@@ -2,7 +2,7 @@
 
 Bienvenue sur le **Générateur de Recettes de Grand-Mère**, une application Proof of Concept (POC) orientée MLOps.
 
-- Génération de recettes via Mistral-7B (LLM)
+- Génération de recettes via Llama-3.1-8B (LLM)
 - Génération d'images via FLUX.1 (modèle de diffusion)
 - Export PDF avec une mise en page "manuscrite" (police personnalisée)
 - Interface utilisateur simple avec Streamlit
